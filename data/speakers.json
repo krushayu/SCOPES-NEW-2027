@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Prof. (Dr.) Ganapati Panda",
+    "profession": "Professor and Research Advisor, C. V. Raman Global University, Former Deputy Director, IIT Bhubaneswar",
+    "about": "Prof. (Dr.) Ganapati Panda (Senior Life Member, IEEE) is currently working as a Professor and Research Advisor at C V Raman Global University-Odisha, Bhubaneswar, India. Professor Panda served as the Deputy Director, Dean (Academic Affairs), and Head, School of Electrical Sciences at the Indian Institute of Technology, Bhubaneswar. He was also Dean (Administration) at the National Institute of Technology, Rourkela. He was a member of the Board of Governors of IIT Bhubaneswar and NIT Rourkela. Dr. Panda also served as Director of the National Institute of Technology, Jamshedpur. He worked for 48 years in teaching and research in leading technical institutions in India. He did his Post-Doctoral research work at the University of Edinburgh, UK (1984-86), and Ph. D. (1981) from IIT, Kharagpur in Digital Signal Processing. He has guided 45 Ph.Ds. He has published more than 516 research papers in 306 referred Journals and 210 Conferences. His research interests are in Artificial Intelligence, Machine Learning, Digital Signal Processing, Digital Communication, and Intelligent Instrumentation.",
+    "talkTitle": "IoT and Embedded Systems: Future Perspectives",
+    "abstract": "Exploring the convergence of IoT and embedded systems, discussing challenges and opportunities in the era of Industry 4.0.",
+    "image": "../assets/speakers/ganpati_panda.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Raffaele Scuderi",
+    "profession": "Electromagnetics Industry Process Consultant and SIMULIA EMAG Specialist",
+    "about": "Raffaele Scuderi received his master's degree (summa cum laude) in Telecommunication Engineering from the University of Pisa, Italy, in 2010. He joined the Microwave and Radiation Laboratory of the University of Pisa as a Ph.D. student and later worked with IDS – Ingegneria Dei Sistemi and Dassault Systèmes. His expertise includes electromagnetic simulation, EMC problems, radiation and scattering analysis, consulting services, and R&D.",
+    "talkTitle": "5G and Beyond: Wireless Communication Trends",
+    "abstract": "Discussing the evolution of wireless communication technologies and the roadmap towards 6G networks.",
+    "image": "../assets/speakers/Raffaele.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Prof. Gautam Kumar Mahanti",
+    "profession": "Professor, Department of Electronics and Communication Engineering, National Institute of Technology Durgapur",
+    "about": "Coming soon....",
+    "talkTitle": "Coming soon....",
+    "abstract": "Coming soon....",
+    "image": "../assets/speakers/gautam_kumar_mahanti.png"
+  },
+  {
+    "id": 4,
+    "name": "Prof. Sarat Kumar Patra",
+    "profession": "Professor and Director, National Institute of Technology Agartala",
+    "about": "Coming soon....",
+    "talkTitle": "Coming soon....",
+    "abstract": "Coming soon....",
+    "image": "../assets/speakers/sarat_kumar_patra.png"
+  },
+  {
+    "id": 5,
+    "name": "Prof. Bishnu Prasad Das",
+    "profession": "Professor, Indian Institute of Technology Roorkee",
+    "about": "Coming soon....",
+    "talkTitle": "Coming soon....",
+    "abstract": "Coming soon....",
+    "image": "../assets/speakers/bishnu_prasad_das.png"
+  },
+  {
+    "id": 6,
+    "name": "Prof. Anirban Sengupta",
+    "profession": "Professor, Indian Institute of Technology Indore",
+    "about": "Coming soon....",
+    "talkTitle": "Coming soon....",
+    "abstract": "Coming soon....",
+    "image": "../assets/speakers/anirban_sengupta.png"
+  },
+  {
+    "id": 7,
+    "name": "Prof. Saraju P. Mohanty",
+    "profession": "Professor, Department of Computer Science and Engineering, University of North Texas, USA",
+    "about": "Coming soon....",
+    "talkTitle": "Coming soon....",
+    "abstract": "Coming soon....",
+    "image": "../assets/speakers/saraju_mohanty.png"
+  },
+  {
+    "id": 8,
+    "name": "Dr. Amit Kumar Mishra",
+    "profession": "Researcher and Academic, United Kingdom",
+    "about": "Coming soon....",
+    "talkTitle": "Coming soon....",
+    "abstract": "Coming soon....",
+    "image": "../assets/speakers/amit_kumar_mishra.png"
+  }
+]

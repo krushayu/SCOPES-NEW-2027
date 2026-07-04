@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes" />
+  <meta name="theme-color" content="#0a192f" />
+  <title>SCOPES 2027 - 3rd International Conference | Signal Processing, Communication, Power &amp; Embedded Systems | IEEE</title>
+  <meta name="description" content="Join the 3rd International Conference SCOPES 2027 on Signal Processing, Communication, Power & Embedded Systems at Centurion University, Paralakhemundi, Odisha. IEEE Bhubaneswar Section & Computer Society Chapter co-sponsored event, February 4-6, 2027." />
+  <meta name="keywords" content="SCOPES 2027, IEEE Conference, Signal Processing, Communication Systems, Power Systems, Embedded Systems, Centurion University, International Conference, Research Conference, Engineering Conference, Odisha, Paralakhemundi, IEEE Bhubaneswar" />
+  <meta name="author" content="Centurion University of Technology and Management" />
+  <meta name="developer" content="Krushayu" />
+  <meta name="designer" content="Krushayu" />
+  <meta name="robots" content="index, follow" />
+  <link rel="icon" href="assets/logos/scopes_logo.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/navbar.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/home.css" />
+</head>
+<body>
+  <div class="App">
+    <div id="navbar-placeholder"></div>
+
+    <div class="home-container">
+
+      <!-- Marquee Section -->
+      <div class="marquee-section">
+        <div class="marquee-text">
+          Conference Record Number: 71015 &nbsp;&nbsp;||&nbsp;&nbsp;
+          Accepted papers will be submitted for inclusion into IEEE Xplore subject to meeting IEEE Xplore's scope and quality requirements
+        </div>
+      </div>
+
+      <!-- Hero Slider Section -->
+      <section class="hero-section">
+        <div class="slider-container" id="slider-container">
+          <div class="countdown-overlay">
+            <h3 class="countdown-title">Conference Starts In</h3>
+            <div class="countdown-boxes">
+              <div class="countdown-box"><div class="countdown-number" id="cd-days">0</div><div class="countdown-label">Days</div></div>
+              <div class="countdown-box"><div class="countdown-number" id="cd-hours">0</div><div class="countdown-label">Hours</div></div>
+              <div class="countdown-box"><div class="countdown-number" id="cd-minutes">0</div><div class="countdown-label">Minutes</div></div>
+              <div class="countdown-box"><div class="countdown-number" id="cd-seconds">0</div><div class="countdown-label">Seconds</div></div>
+            </div>
+          </div>
+
+          <!-- slides injected by home.js -->
+          <div id="slider-slides"></div>
+
+          <button class="slider-btn prev" id="slider-prev">‹</button>
+          <button class="slider-btn next" id="slider-next">›</button>
+        </div>
+
+        <!-- Conference Quick Info -->
+        <div class="conference-quick-info anim-fade-up" id="info-grid-wrapper">
+          <div class="info-grid" id="info-grid"></div>
+        </div>
+      </section>
+
+      <!-- Keynote Speakers Scrolling Strip -->
+      <section class="speakers-section anim-fade-up" id="speakers-section">
+        <div class="section-header">
+          <h2 class="section-title">Keynote Speakers</h2>
+          <p class="section-subtitle">Learn from world-renowned experts and industry leaders</p>
+        </div>
+        <div class="speakers-strip-wrapper">
+          <div class="speakers-strip-track" id="speakers-strip-track"></div>
+        </div>
+      </section>
+
+      <!-- About the Conference Section -->
+      <section class="conf-about-section anim-fade-up" id="conf-about-section">
+        <div class="section-header">
+          <h2 class="section-title">About the Conference</h2>
+          <p class="section-subtitle">SCOPES 2027 - Bringing Together Researchers, Engineers, And Industry Experts</p>
+        </div>
+        <div class="conf-about-body">
+          <div class="conf-vm-grid">
+            <div class="conf-vm-card conf-vision">
+              <h3>Conference Vision</h3>
+              <p>To become a leading international platform that fosters innovation, interdisciplinary research, and collaboration in emerging technologies, driving the development of intelligent, sustainable, and future-ready engineering solutions aligned with global and industrial needs.</p>
+            </div>
+            <div class="conf-vm-card conf-mission">
+              <h3>Conference Mission</h3>
+              <ul>
+                <li>To provide a global forum for researchers, academicians, and industry professionals to present and exchange cutting-edge research.</li>
+                <li>To promote integration of signal processing, communication, power, quantum technologies, and embedded systems.</li>
+                <li>To address real-world industrial challenges through innovative and scalable solutions.</li>
+                <li>To encourage collaboration between academia and industry for technology transfer and innovation.</li>
+                <li>To support the development of sustainable, intelligent, and human-centric technologies aligned with IEEE's mission of advancing technology for humanity.</li>
+              </ul>
+            </div>
+          </div>
+          <br />
+          <ul class="conf-about-intro">
+            <li>The IEEE International Conference on Signal Processing, Communication, Power and Embedded Systems (SCOPES) is a premier forum dedicated to advancing research and innovation in key engineering domains. The conference brings together researchers, academicians, industry experts, and students from across the globe to exchange ideas, present cutting-edge research, and foster collaborative partnerships.</li>
+            <li>SCOPES focuses on both fundamental and applied aspects of signal processing, communication systems, power engineering, quantum technology, and embedded systems. It highlights emerging trends such as artificial intelligence, next-generation communication (5G/6G), smart energy systems, advanced chip design, and intelligent embedded solutions.</li>
+            <li>The conference aims to bridge the gap between academia and industry by addressing real-world challenges in areas such as smart manufacturing, healthcare technologies, sustainable energy, and intelligent infrastructure. Through keynote talks, technical sessions, and tutorials, participants gain insights into the latest technological advancements and future directions.</li>
+            <li>SCOPES aligns with IEEE's mission of advancing technology for humanity by promoting innovation, interdisciplinary research, and knowledge sharing at a global level.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Speaker Modal -->
+      <div class="speaker-modal-overlay" id="speaker-modal-overlay" style="display:none;">
+        <div class="speaker-modal" id="speaker-modal">
+          <button class="modal-close" id="speaker-modal-close">&times;</button>
+          <div class="modal-content" id="speaker-modal-content"></div>
+        </div>
+      </div>
+
+      <!-- About University Section -->
+      <section class="about-university-section anim-fade-up" id="about-university-section">
+        <div class="section-header">
+          <h2 class="section-title">Centurion University of Technology and Management</h2>
+          <p class="section-subtitle">Accredited with 'A+' Grade by NAAC</p>
+        </div>
+        <div class="about-content">
+          <div class="about-image-slider anim-slide-left" id="about-image-slider">
+            <img src="assets/slide1.png" alt="CUTM Campus" class="about-img" id="about-img" />
+            <div class="scopes-img-title" id="about-img-title">CUTM Campus</div>
+          </div>
+          <div class="about-text anim-slide-right">
+            <p>▪ Centurion University of Technology &amp; Management (CUTM) is a State-notified Skill University, accredited A+ by NAAC, the only Skill University in India to hold this distinction. Recognised as a “Centre of Excellence” by the Ministry of Skill Development &amp; Entrepreneurship (MoSDE), Government of India, Centurion is also approved by DGCA as a Drone Pilot Training Institute and has been accorded Section-1 University status by the Department of Education and Training, Government of Australia. The Outlook, in its rankings for 2024 and 2025, ranked Centurion University as the No.1 Skill University in India and among the Top-10 Private State Universities nationally, two years consecutively.<a href="https://cutm.ac.in/" target="_blank" rel="noopener noreferrer" class="cutm-inline-link">Visit cutm.ac.in →</a></p>
+            <p>▪ The University has received national and international recognition for its pioneering model of integrating skill development into higher education, which earned the University citations by name in the United Nations General Assembly debate in education, UNESCO, the World Bank, NITI Aayog, and the British Council, among others, affirming its role as a model institution for inclusive, impactful, and transformative education.</p>
+            <p>▪ Centurion University has also been awarded the “Green Gown Award International 2025 – Highly Commendable Nature Positive” by the Environmental Association for Universities and Colleges (EAUC) in partnership with the International Association of Universities and the UN Environmental Program, thus confirming the commitment towards ecological sustainability.</p>
+            <p>▪ Centurion University’s mission is to integrate skill, education, and enterprise to create meaningful livelihoods and social transformation. Through Gram Tarang Training &amp; Employability Services (GTETS) - our social enterprise and the first NSDC partner - we have skilled over 850,000 youth from below-poverty-line and indigenous communities, including differently-abled individuals, helping them secure dignified employment and sustainable livelihoods.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- About School of Engineering and Technology (SoET) -->
+      <section class="scopes-conference-section anim-fade-up" id="soet-section">
+        <div class="section-header">
+          <h2 class="section-title">About - School of Engineering and Technology</h2>
+        </div>
+        <div class="scopes-content">
+          <div class="scopes-text anim-slide-left">
+            <p> Established in 1997 at Paralakhemundi and expanded to Bhubaneswar in 2008, the School of Engineering and Technology at Centurion University of Technology and Management (CUTM), Odisha, has been committed to excellence in engineering education, research, innovation, and skill development. Since its inception, the School has nurtured competent, socially responsible, and globally competitive engineers equipped to address contemporary technological challenges and contribute effectively to industry, academia, and society.</p>
+            <p> SoET is equipped with state-of-the-art laboratories, innovation centers, and research facilities that foster hands-on learning and industry-ready skill development. The school maintains strong collaborations with leading industries and research organizations to ensure curriculum relevance and placement excellence.</p>
+          </div>
+          <div class="scopes-image-slider anim-slide-right" id="scopes-image-slider">
+            <img src="assets/soet1.jpg" alt="SoET" class="scopes-img" id="scopes-img" />
+            <div class="scopes-img-title" id="scopes-img-title">SoET Drone Performance</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Department Section -->
+      <section class="department-section anim-fade-up" id="dept-section">
+        <div class="section-header">
+          <h2 class="section-title">Department of Electronics and Communication Engineering</h2>
+        </div>
+        <div class="department-content">
+          <div class="department-image anim-slide-left" id="dept-image-slider">
+            <img src="assets/ece1.png" alt="ECE Department" class="dept-img" id="dept-img" />
+            <div class="scopes-img-title" id="dept-img-title">ECE</div>
+          </div>
+          <div class="department-text anim-slide-right">
+            <p>Department of Electronics and Communication Engineering aims to produce qualified and dynamic engineers in the fast-changing area of Smart Devices, Mobile Emerging Technologies, Automation, Industrial IoT, and VLSI. The Department has sophisticated and modern laboratory equipment and software/tool (HFSS, CADENCE, MATLAB, MULTISIM, KEIL uVision, LABVIEW) for research and development work in the areas of Antenna and Microwave Engineering, Signal Processing and Communication, VLSI and Embedded System. The department undertakes real-time application projects in Smart Irrigation, Industrial IoT, Soil Moisture Prototype Development, Insulin Pump Prototype Development and Chip Design</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SCOPES 2024 Gallery Strip -->
+      <section class="gallery-strip-section">
+        <div class="section-header">
+          <h2 class="section-title">SCOPES 2024 Gallery</h2>
+          <p class="section-subtitle">Glimpses from the previous conference</p>
+        </div>
+        <div class="gallery-strip-wrapper">
+          <div class="gallery-strip-track" id="gallery-2024-track"></div>
+        </div>
+      </section>
+
+      <!-- SCOPES 2016 Gallery Strip -->
+      <section class="gallery-strip-section">
+        <div class="section-header">
+          <h2 class="section-title">SCOPES 2016 Gallery</h2>
+          <p class="section-subtitle">Glimpses from the previous conference</p>
+        </div>
+        <div class="gallery-strip-wrapper">
+          <div class="gallery-strip-track" id="gallery-2016-track"></div>
+        </div>
+      </section>
+
+      <!-- IEEE Copyright Section -->
+      <section class="ieee-copyright-section anim-zoom-in" id="copyright-section">
+        <h3 class="copyright-heading">IEEE Copyright Details</h3>
+        <div class="copyright-list">
+          <p>U.S. Government work not protected by U.S. copyright</p>
+          <p>79-8-3315-0645-2/24/$31.00 ©2024 Crown</p>
+          <p>979-8-3315-0645-2/24/$31.00 ©2024 European Union</p>
+          <p>979-8-3315-0645-2/24/$31.00 ©2024 IEEE</p>
+        </div>
+      </section>
+
+      <!-- Important Dates & Registration Fees -->
+      <section class="dates-fees-section anim-fade-up" id="dates-fees-section">
+        <div class="section-header">
+          <h2 class="section-title">Important Information</h2>
+          <p class="section-subtitle">Key dates and registration details</p>
+        </div>
+        <div class="dates-fees-grid">
+          <div class="dates-column anim-slide-left">
+            <h3 class="column-title">Important Dates</h3>
+            <div class="dates-list" id="home-dates-list"></div>
+          </div>
+          <div class="fees-column anim-slide-right">
+            <h3 class="column-title">Registration Fees</h3>
+            <div class="fees-table-wrapper">
+              <table class="fees-table">
+                <thead>
+                  <tr><th>Category</th><th>IEEE Member</th><th>Non-IEEE Member</th><th>Foreign Delegates</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>R&amp;D and Industry Participants</td><td>₹9,000</td><td>₹10,000</td><td>$250</td></tr>
+                  <tr><td>Faculty Participants from Academia</td><td>₹8,000</td><td>₹9,000</td><td>$225</td></tr>
+                  <tr><td>UG/PG Students &amp; Research Scholars</td><td>₹7,000</td><td>₹8,000</td><td>$200</td></tr>
+                  <tr><td>Listener</td><td>₹2,000</td><td>₹2,500</td><td>$100</td></tr>
+                  <tr><td>Accompany</td><td>₹1,000</td><td>₹1,000</td><td>$50</td></tr>
+                </tbody>
+              </table>
+              <p class="fees-note">* Fee includes Conference Kit, Banquet, Lunch, Tea, and GST as applicable.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <div id="footer-placeholder"></div>
+  </div>
+
+  <script src="js/partials.js"></script>
+  <script src="js/navbar.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>

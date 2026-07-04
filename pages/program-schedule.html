@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes" />
+  <meta name="theme-color" content="#0a192f" />
+  <title>Program Schedule | SCOPES 2027</title>
+  <link rel="icon" href="../assets/logos/scopes_logo.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="../css/reset.css" />
+  <link rel="stylesheet" href="../css/navbar.css" />
+  <link rel="stylesheet" href="../css/footer.css" />
+  <link rel="stylesheet" href="../css/program-schedule.css" />
+</head>
+<body>
+  <div class="App">
+    <div id="navbar-placeholder"></div>
+
+    <div class="schedule-wrapper">
+      <div class="schedule-hero">
+        <h1 class="schedule-hero-title">Program Schedule</h1>
+        <p class="schedule-hero-subtitle">SCOPES-2027 Conference</p>
+      </div>
+
+      <div class="schedule-container">
+        <section class="schedule-section">
+          <h2 class="schedule-section-title"><i class="fas fa-calendar-days schedule-icon"></i> Day-wise Programs</h2>
+
+          <div class="schedule-tabs" id="schedule-tabs">
+            <button class="schedule-tab active" data-day="1">Day 1</button>
+            <button class="schedule-tab" data-day="2">Day 2</button>
+            <button class="schedule-tab" data-day="3">Day 3</button>
+          </div>
+
+          <div class="schedule-card">
+            <div class="schedule-day-header">
+              <h3 id="schedule-day-title">Day 1</h3>
+              <p class="schedule-date" id="schedule-day-date">Date: 04-02-2027</p>
+            </div>
+
+            <div class="schedule-table-wrapper">
+              <table class="schedule-table">
+                <thead>
+                  <tr><th><i class="fas fa-clock"></i> Time</th><th>Program</th><th><i class="fas fa-location-dot"></i> Venue</th></tr>
+                </thead>
+                <tbody id="schedule-table-body"></tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div id="footer-placeholder"></div>
+  </div>
+
+  <script src="../js/partials.js"></script>
+  <script src="../js/navbar.js"></script>
+  <script src="../js/program-schedule.js"></script>
+</body>
+</html>
